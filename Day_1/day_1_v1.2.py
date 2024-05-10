@@ -28,6 +28,7 @@ def main():
       print("3. Welcome back")
       greeting_choice = int(input("Enter your choice (1-3): "))
 
+      # Generate and print the greeting message
       greeting_message = get_greeting_message(user_name, greeting_choice)
 
       print(greeting_message)
