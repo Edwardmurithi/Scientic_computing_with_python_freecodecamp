@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def arithmetic_arranger(problems, display_answers=False):
     # Check if there are too many problems
     if len(problems) > 5:
@@ -53,3 +55,4 @@ def arithmetic_arranger(problems, display_answers=False):
         arranged_problems += '\n' + '    '.join(results)
 
     return arranged_problems
+
