@@ -1,6 +1,13 @@
 #!/usr/bin/python3
+import sys
 
-text = 'mrttaqrhknsw ih puggrur'
+# text = 'mrttaqrhknsw ih puggrur'
+
+if len(sys.argv) < 2:
+    print("Usage: python cipher_project.py <text>")
+    sys.exit(1)
+
+text = ' '.join(sys.argv[1:])    
 custom_key = 'happycoding'
 
 def vigenere(message, key, direction=1):
