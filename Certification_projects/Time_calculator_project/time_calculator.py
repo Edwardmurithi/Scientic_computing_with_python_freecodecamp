@@ -5,7 +5,7 @@ def add_time(start, duration, starting_day=None):
     start_time, period = start.split()
     start_hours, start_minutes = map(int, start_time.split(':'))
     
-    # Convert start time to 24-hour format
+    # Convert start time to 24-hour format.
     if period == 'PM' and start_hours != 12:
         start_hours += 12
     elif period == 'AM' and start_hours == 12:
