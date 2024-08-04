@@ -10,6 +10,7 @@ if len(sys.argv) < 2:
 text = ' '.join(sys.argv[1:])    
 custom_key = 'happycoding'
 
+
 def vigenere(message, key, direction=1):
     key_index = 0
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -33,11 +34,14 @@ def vigenere(message, key, direction=1):
     
     return final_message
 
+
 def encrypt(message, key):
     return vigenere(message, key)
-    
+
+
 def decrypt(message, key):
     return vigenere(message, key, -1)
+
 
 print(f'\nEncrypted text: {text}')
 print(f'Key: {custom_key}')

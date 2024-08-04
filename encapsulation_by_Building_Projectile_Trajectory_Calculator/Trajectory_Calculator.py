@@ -74,6 +74,7 @@ displacement: {round(self.__calculate_displacement(), 1)} m
     def __repr__(self):
         return f'{self.__class__}({self.speed}, {self.height}, {self.angle})'
 
+
 class Graph:
     __slots__ = ('__coordinates')
 
@@ -110,6 +111,7 @@ class Graph:
         graph = "\n" + "\n".join(matrix_axes) + "\n"
 
         return graph
+
 
 def projectile_helper(speed, height, angle):
     ball = Projectile(speed, height, angle)

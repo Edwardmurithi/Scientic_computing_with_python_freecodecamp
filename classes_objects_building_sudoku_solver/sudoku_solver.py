@@ -55,6 +55,7 @@ class Board:
                 self.board[row][col] = 0
         return False
 
+
 def solve_sudoku(board):
     gameboard = Board(board)
     print(f'Puzzle to solve:\n{gameboard}')
@@ -63,6 +64,7 @@ def solve_sudoku(board):
     else:
         print('The provided puzzle is unsolvable.')
     return gameboard
+
 
 puzzle = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
