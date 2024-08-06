@@ -1,4 +1,4 @@
-class R2Vector:
+{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}{self.item}class R2Vector:
     def __init__(self, *, x, y):
         self.x = x
         self.y = y
