@@ -1,5 +1,6 @@
 class Category:
     def __init__(self, name):
+        """Constructor to initialize instance attributes"""
         self.name = name
         self.ledger = []
 
